@@ -11,8 +11,8 @@ year22=pd.read_csv('year22.csv')
 year22_data=year22.iloc[:, 1]
 year23_data=year23.iloc[:, 1]
 year24_data=year24.iloc[:, 1]
-t=np.linspace(0, len(year22_data)-1, len(year22_data))
-
+t=np.array(['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
+                 'Oct', 'Nov', 'Dec'])
 
 plt.figure()
 
